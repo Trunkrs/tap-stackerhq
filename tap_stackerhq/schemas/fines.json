@@ -1,0 +1,27 @@
+{
+  "properties": {
+    "_sid": {
+      "type": "string"
+    },
+    "fines__vehicle": {
+      "type": "string"
+    },
+    "fines__description_2": {
+      "type": "string"
+    },
+    "fines__description": {
+      "type": "number"
+    },
+    "fines__name": {
+      "type": "string",
+      "format": "date"
+    },
+    "fines__status": {
+      "type": ["string","null"],
+      "nullable": true
+    },
+    "fines__record_id": {
+      "type": "string"
+    }
+  }
+}
