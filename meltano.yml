@@ -22,6 +22,9 @@ plugins:
     - name: stack_id
       kind: string
       required: true
+    select:
+      - investigations.*
+      - investigations_regions.*
   loaders:
   - name: target-jsonl
     variant: andyh1203

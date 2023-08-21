@@ -53,3 +53,21 @@ class Damages(StackerHQStream):
     primary_keys: t.ClassVar[list[str]] = ["_sid"]
     replication_key = None
     schema_filepath = SCHEMAS_DIR / "damages.json"
+
+class Investigations(StackerHQStream):
+    """Define custom stream."""
+
+    name = "investigations"
+    path = "/object.custom.onderzoeken/records/"
+    primary_keys: t.ClassVar[list[str]] = ["_sid"]
+    replication_key = None
+    schema_filepath = SCHEMAS_DIR / "investigations.json"
+
+class InvestigationsRegions(StackerHQStream):
+    """Define custom stream."""
+
+    name = "investigations_regions"
+    path = "/object.custom.regions/records/"
+    primary_keys: t.ClassVar[list[str]] = ["_sid"]
+    replication_key = None
+    schema_filepath = SCHEMAS_DIR / "investigations_regions.json"
