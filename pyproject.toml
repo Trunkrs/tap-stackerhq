@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "tap-stackerhq"
-version = "0.0.3"
+version = "0.0.4"
 description = "`tap-stackerhq` is a Singer tap for StackerHQ, built with the Meltano Singer SDK."
 readme = "README.md"
 authors = ["Hidde Stokvis <hidde@trunkrs.nl>"]
