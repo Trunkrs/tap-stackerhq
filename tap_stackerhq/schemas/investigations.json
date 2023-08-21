@@ -3,6 +3,10 @@
     "_sid": {
       "type": "string"
     },
+    "onderzoeken__description": {
+      "type": ["string", "null"],
+      "nullable": true
+    },
     "onderzoeken__status": {
       "type": ["string", "null"],
       "nullable": true
