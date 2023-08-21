@@ -44,3 +44,12 @@ class Rental(StackerHQStream):
     primary_keys: t.ClassVar[list[str]] = ["_sid"]
     replication_key = None
     schema_filepath = SCHEMAS_DIR / "rentals.json"
+
+class Damages(StackerHQStream):
+    """Define custom stream."""
+
+    name = "damages"
+    path = "/object.custom.damages/records/"
+    primary_keys: t.ClassVar[list[str]] = ["_sid"]
+    replication_key = None
+    schema_filepath = SCHEMAS_DIR / "damages.json"

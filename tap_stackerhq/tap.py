@@ -47,6 +47,7 @@ class TapStackerHQ(Tap):
             streams.Assets(self),
             streams.Region(self),
             streams.Rental(self),
+            streams.Damages(self),
         ]
 
 

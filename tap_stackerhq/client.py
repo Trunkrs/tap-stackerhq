@@ -22,8 +22,6 @@ class StackerHQStream(RESTStream):
     @property
     def url_base(self) -> str:
         """Return the API URL root, configurable via tap settings."""
-        logging.info("TEST")
-        logging.info(self.config.get("auth_token"))
         return "https://airportal.stacker.app/api/objects"
 
     records_jsonpath = "$.records[*]"  # Or override `parse_response`.
