@@ -29,8 +29,8 @@
       "type": ["string", "null"],
       "nullable": true
     },
-    "asssets__model_id": {
-      "type": "string"
+    "assets__model_id": {
+      "type": "number"
     },
     "assets__batterij_kwh": {
       "type": ["string","null"]
