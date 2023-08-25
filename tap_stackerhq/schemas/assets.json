@@ -3,7 +3,7 @@
     "_sid": {
       "type": "string"
     },
-    "assets__waranty_expiration": {
+    "assets__warranty_expiration": {
       "type": "string",
       "format": "date"
     },
@@ -30,12 +30,12 @@
       "nullable": true
     },
     "asssets__model_id": {
-      "type": "number"
+      "type": "string"
     },
     "assets__batterij_kwh": {
       "type": ["string","null"]
     },
-    "assets_length": {
+    "assets__length": {
       "type": "string"
     },
     "assets__brand": {
