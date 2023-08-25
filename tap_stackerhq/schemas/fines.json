@@ -22,6 +22,11 @@
     },
     "fines__record_id": {
       "type": "string"
+    },
+    "fines__invoice_date": {
+      "type": ["string","null"],
+      "nullable": true,
+      "format": "date"
     }
   }
 }
