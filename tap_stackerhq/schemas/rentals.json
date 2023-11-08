@@ -22,6 +22,9 @@
     },
     "rentals__curent_rental": {
       "type": "string"
+    },
+    "rentals__rental_fee": {
+    "type": "number"
     }
   }
 }
