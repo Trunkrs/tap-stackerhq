@@ -33,6 +33,10 @@
     "damages__created_at": {
       "type": "string",
       "format": "date-time"
+    },
+    "damages__invoice_date": {
+      "type": "string",
+      "format": "date"
     }
   }
 }
